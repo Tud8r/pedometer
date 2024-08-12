@@ -15,13 +15,22 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions": [
+        "android.permission.ACTIVITY_RECOGNITION"
+      ],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.anonymous.pedometer"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "81b1b8f3-e601-4510-8f07-945ce6c7c87b"
+      }
     }
   }
 }
